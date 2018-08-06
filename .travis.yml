@@ -16,3 +16,6 @@ notifications:
       - eisi-183:G1ChQPdPN7kLkgGpnS7rL8Xi
     on_success: never
     on_failure: always
+matrix:
+ allow_failures:
+   - php: 5.6
