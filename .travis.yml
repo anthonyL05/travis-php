@@ -12,5 +12,3 @@ notifications:
     on_success: always
     on_failure: never
   slack: eisi-183:G1ChQPdPN7kLkgGpnS7rL8Xi
-    on_success: never
-    on_failure: always
