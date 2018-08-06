@@ -5,3 +5,9 @@ php:
 script: php ./index.php
 before_script:
   - if find . -name "*.php" ! -path "./vendor/*" -exec php -l {} \; | grep -v "No syntax errors detected"; then exit 1; fi
+notifications:
+  email:
+    recipients:
+      - anthonyl05@hotmail.fr
+    on_success: always
+    on_failure: never
